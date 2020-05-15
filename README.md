@@ -1,8 +1,11 @@
 # spring-rest-reactjs-demo
 
-spring rest based backend project.
-Note. for ease of testing this project also contains all html, js and css file (minified) of the reactjs SPA.
+Spring rest based backend project.
+Note:
+for ease of running, this project also contains all html, js and css file (minified) of the reactjs SPA.
 These files were genetared from the reactjs project which exists onthe following repository (https://github.com/muhammadwasay/reactjs-demo )
+
+How to Run:
 Access the restjs SPA from spring backend application by visiting following path @RequestMapping(value = "/").
 
 
@@ -13,7 +16,7 @@ Technology stack used
 - spring hatoas
 - h2 database
 
-Requirement Spectification Implemented
+APIS
 
 Employee
 - List @GetMapping("/employees")
@@ -29,5 +32,3 @@ Department
 - Create @PostMapping("/departments")
 - Edit @PutMapping("/departments/{id}")
 - Delete @DeleteMapping("/departments/{id}")
-
-Note: These all api are functional and can be testes form any rest client. Due to time availablity on my end the reactjs SAP only uses the list apis.
